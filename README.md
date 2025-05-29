@@ -15,7 +15,6 @@ A React-based platform that connects people who need assistance with those willi
 ## Cloud Services Integration
 
 ### Google Cloud Platform (GCP)
-- **App Engine**: Hosts the React frontend and Node.js/Express backend
 - **Cloud SQL (PostgreSQL)**: Main database with PostGIS for spatial queries
 - **Cloud Storage**: Media storage for task attachments
 - **Cloud Functions**: Serverless backend logic
@@ -27,34 +26,7 @@ A React-based platform that connects people who need assistance with those willi
 - **Cloud Firestore**: Real-time data sync
 - **Cloud Storage**: Media files
 - **Cloud Messaging**: Push notifications
-
-## Environment Setup
-
-1. Create a `.env` file in the root directory with the following variables:
-
-```env
-# Firebase Configuration
-VITE_FIREBASE_API_KEY=your-api-key
-VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
-VITE_FIREBASE_PROJECT_ID=your-project-id
-VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
-VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
-VITE_FIREBASE_APP_ID=your-app-id
-VITE_FIREBASE_VAPID_KEY=your-vapid-key
-
-# Google Cloud Configuration
-VITE_GOOGLE_MAPS_API_KEY=AIzaSyCbcG4F8svpjrg9QIEcxv4OsYiMyDTlojE
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm run dev
-```
+- **Hosting**
 
 ## Cloud Infrastructure Setup
 
